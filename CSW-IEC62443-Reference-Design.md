@@ -86,7 +86,7 @@ Cisco Secure Workload (CSW) is a **workload protection platform**. A lightweight
 
 **Console areas:** Investigate (inventory, flows, vulns) · Defend/Segmentation (policy) · Manage (agents) · Platform (connectors) · Administration (audit log)
 
-**Read next:** [Compliance evidence playbook](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/docs/compliance-evidence-playbook.md) (full step-by-step) · [About CSW](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/docs/about-csw.md) (platform intro)
+**Read next:** [Compliance evidence playbook](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/docs/compliance-evidence-playbook.md) (full step-by-step) · [About CSW](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/docs/about-csw.md) (platform intro)
 
 ---
 
@@ -582,17 +582,17 @@ perl -pe 's/\b10\.\d{1,3}\.\d{1,3}\.\d{1,3}\b/10.REDACTED.0.0/g' \
 
 ## Related Frameworks
 
-- [NERC CIP](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NERC-CIP/CSW-NERC-CIP-Technical-Runbook.md) —
+- [NERC CIP](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NERC-CIP/CSW-NERC-CIP-Technical-Runbook.md) —
   analogous IT/OT boundary evidence pattern for BES entities.
 - [NIST SP 800-82](https://csrc.nist.gov/publications/detail/sp/800-82/rev-3/final) —
   operational technology companion guidance (external).
-- [ISO/IEC 27001:2022](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/ISO-27001-2022/CSW-ISO27001-Technical-Runbook.md) —
+- [ISO/IEC 27001:2022](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/ISO-27001-2022/CSW-ISO27001-Technical-Runbook.md) —
   when plants pair 62443 with enterprise ISMS audits.
-- [NIST SP 800-207](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md) —
+- [NIST SP 800-207](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/NIST-800-207/CSW-NIST-800-207-Technical-Runbook.md) —
   zero trust patterns for conduit enforcement narratives.
 
 
-- [UK NCSC CAF v3.2](https://github.com/chandrapati/CSW-Compliance-Mapping/blob/main/UK-NCSC-CAF/caf-mapping.md) — zones and conduits are the reuse path for CAF B5 on the IT side of an IT/OT boundary.
+- [UK NCSC CAF v3.2](https://github.com/chandrapati/CSW-Compliance-Reference-Designs/blob/main/UK-NCSC-CAF/caf-mapping.md) — zones and conduits are the reuse path for CAF B5 on the IT side of an IT/OT boundary.
 
 ---
 
@@ -652,4 +652,4 @@ values before delivery.*
 
 ---
 
-*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Mapping).*
+*Part of the Cisco Secure Workload compliance reference-design series. Umbrella index: [CSW-Compliance-Mapping](https://github.com/chandrapati/CSW-Compliance-Reference-Designs).*
